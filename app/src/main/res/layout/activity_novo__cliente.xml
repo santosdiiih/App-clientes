@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Novo_Cliente"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="23dp"
+            android:textColorHint="@android:color/black"
+            android:inputType="textCapWords"
+            android:hint="Digite seu Nome: "/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="23dp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@android:color/black"
+            android:hint="Digite seu Email: "/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputCep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/txtCep"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="23dp"
+            android:inputType="numberDecimal"
+            android:textColorHint="@android:color/black"
+            android:hint="Digite seu Cep: "/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputRua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/txtRua"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="23dp"
+            android:inputType="textCapWords"
+            android:textColorHint="@android:color/black"
+            android:hint="Digite sua Rua: "/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/txtBairro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="23dp"
+            android:inputType="textCapWords"
+            android:textColorHint="@android:color/black"
+            android:hint="Digite seu Bairro: "/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/txtCidade"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="23dp"
+            android:inputType="textCapWords"
+            android:textColorHint="@android:color/black"
+            android:hint="Digite sua Cidade: "/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        >
+
+        <EditText
+            android:id="@+id/txtEstado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="23dp"
+            android:inputType="textCapWords"
+            android:textColorHint="@android:color/black"
+            android:hint="Digite seu Estado: "/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Cadastrar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textSize="23dp"/>
+
+</LinearLayout>
